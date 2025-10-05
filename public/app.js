@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const path = window.location.pathname;
 
   if (path.includes("index.html") || path.endsWith("/")) {
-    // Montar cards da home
+
     const main = document.querySelector("body");
     const section = document.createElement("section");
     section.classList.add("noticias");
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   if (path.includes("detalhes.html")) {
-    // Exibir notícia específica
+
     const params = new URLSearchParams(window.location.search);
     const id = parseInt(params.get("id"));
     const noticia = noticias.find(n => n.id === id);

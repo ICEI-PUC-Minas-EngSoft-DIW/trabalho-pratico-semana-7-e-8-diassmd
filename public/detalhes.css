@@ -1,6 +1,4 @@
-/* ==========================
-   ESTILO GERAL
-========================== */
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
@@ -10,9 +8,7 @@ body {
   line-height: 1.6;
 }
 
-/* ==========================
-   CABEÇALHO
-========================== */
+
 header {
   background-color: #004080 !important;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -23,9 +19,7 @@ header h1 {
   font-weight: bold;
 }
 
-/* ==========================
-   CONTEÚDO PRINCIPAL
-========================== */
+
 main {
   min-height: 70vh;
 }
@@ -57,9 +51,7 @@ main {
   font-size: 1.1em;
 }
 
-/* ==========================
-   BOTÃO VOLTAR
-========================== */
+
 .btn-secondary {
   background-color: #004080;
   border: none;
@@ -74,9 +66,7 @@ main {
   background-color: #003060;
 }
 
-/* ==========================
-   RODAPÉ
-========================== */
+
 footer {
   background-color: #004080 !important;
   color: #fff;
@@ -88,9 +78,7 @@ footer p {
   font-size: 0.95em;
 }
 
-/* ==========================
-   RESPONSIVIDADE
-========================== */
+
 @media (max-width: 768px) {
   #detalheNoticia {
     padding: 20px;
