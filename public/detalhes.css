@@ -67,15 +67,14 @@ main {
 }
 
 
-footer {
-  background-color: #004080 !important;
-  color: #fff;
-  margin-top: 40px;
+footer ul {
+  list-style: none;   /* Remove bullets */
+  padding: 0;         /* Remove padding padrão do ul */
+  margin: 0;          /* Remove margem padrão do ul */
 }
 
-footer p {
-  margin: 0;
-  font-size: 0.95em;
+footer li {
+  margin: 0 10px;     /* Apenas espaçamento horizontal */
 }
 
 

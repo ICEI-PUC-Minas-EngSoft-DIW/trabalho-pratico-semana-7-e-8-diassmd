@@ -81,19 +81,15 @@ h1, h2, h3 {
 }
 .secao-noticias {
   padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
 }
 
 .secao-noticias h2 {
   margin-bottom: 20px;
   color: #004080;
 }
-
-.secao-noticias {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-}
-
 .noticia {
   background-color: #fff;
   border: 1px solid #ddd;
